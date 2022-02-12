@@ -3,6 +3,9 @@ Rails.application.routes.draw do
 
   get 'posts123', to: 'posts#index'
 
+  get 'e201jb', to: 'posts#e201jb'
+
+
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
