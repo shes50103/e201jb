@@ -5,6 +5,9 @@ Rails.application.routes.draw do
 
   get 'e201jb', to: 'posts#e201jb'
 
+  get 'durham', to: 'posts#durham'
+
+
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 

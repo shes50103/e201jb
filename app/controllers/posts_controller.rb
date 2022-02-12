@@ -7,7 +7,15 @@ class PostsController < ApplicationController
   end
 
   def e201jb
+    @post = Post.first
+    @posts = Post.all
   end
+
+  def durham
+    @post = Post.first
+
+  end
+
 
   # GET /posts/1 or /posts/1.json
   def show
