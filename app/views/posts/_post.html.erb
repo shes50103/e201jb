@@ -1,12 +1,11 @@
 <div id="<%= dom_id post %>">
   <p>
-    <strong>Title:</strong>
-    <%= post.title %>
+    <%= link_to post.title, post %>
   </p>
 
   <p>
-    <strong>Body:</strong>
-    <%= post.body %>
+    <%= link_to post.body, post %>
+
   </p>
 
   <p>
